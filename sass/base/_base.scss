@@ -1,0 +1,21 @@
+/* Using universal selector to to reset browser */
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    
+}
+
+/*Formatting fonts using inheritance on body */
+
+html{
+    font-size: 62.5%;
+}
+
+
+body{
+   
+    box-sizing: border-box;
+}
